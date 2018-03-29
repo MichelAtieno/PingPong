@@ -12,28 +12,35 @@
        <div class="row">
          <div class="col-md-4" id="split1">
            <h4>About Ping Pong</h4>
+           <h6>Created by:</h6>
+           <p>Michel Atieno</p>
+           <h6>GitHub Username/URL:</h6>
+            <p>MichelAtieno</p>
+           <h6>Level 2 Test for:</h6>
+            <p>JavaScript</p>
          </div>
          <div class="col-md-8"  id="split2">
            <h4>Lets play</h4>
+           <h5>Rules</h5>
+           <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+           <ol>
+             <li>Numbers divisible by 3 become 'ping'</li>
+             <li>Numbers divisible by 5 become 'pong'</li>
+             <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+           </ol>
+           <form id="PingPong">
+             <label for="pingpong">Enter your number here:</label>
+             <input id="pingpong" type="text">
+           <button type="submit" class="btn">Ping Pong</button>
+         </form>
+         <div>
+           <ul id="result">
+           </ul>
+        </div>
        </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
+   </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/script.js"></script>
   </body>
