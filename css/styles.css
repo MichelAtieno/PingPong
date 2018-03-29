@@ -1,0 +1,8 @@
+.row {
+  box-sizing: border-box;
+  border: 10px solid black;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: silver;
+}
