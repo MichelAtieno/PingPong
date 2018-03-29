@@ -1,5 +1,5 @@
 # PingPong
-#### A program that performs certain behaviors of divisibility 9/3/2018
+#### A program that performs certain behaviors of divisibility 29/3/2018
 #### By **Michel Atieno**
 ## Description
 This is a webpage that runs a program and helps the user perform divisibility functionalities
